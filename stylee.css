@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tektur', cursive;
+    text-align: center;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+
+h1 {
+    font-size: 100px;
+    font-family: 'Tektur', cursive;
+    color: #66bfbf;
+    margin: 0;
+}
+h2 {
+    font-size: 40px;
+    font-family: 'Tektur', cursive;
+    color: #66bfbf;
+    margin-top: 50px;
+}
+
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 350px;
+}
+
+.bootm-cloud {
+    position: absolute;
+    left: 200px;
+}
+
+/* -------------- */
+
+.middle-container {
+
+    margin: 100px 0px;
+
+}
+
+.img-saif {
+    height: 180px;
+    border-radius: 150px;
+}
+
+.intro {
+    font-size: 20px;
+    font-family: 'Tektur', cursive;
+    width: 30%;
+    margin: auto;
+}
+
+
+hr {
+    border: dotted #66bfbf 6px ;
+    border-bottom: none ;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    gap: 2rem;
+}
+
+
+.chillie-img {
+    height: 40%;
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+h3 {
+    color: #66bfbf;
+    font-family: 'Tektur', cursive;
+}
+
+.prg {
+    font-size: 20px;
+    font-family: 'Tektur', cursive;
+}
+
+.contact-messg {
+    font-size: 18px;
+    font-family: 'Tektur', cursive;
+    width: 40%;
+    margin: 40px auto 60px auto;
+
+}
+
+.but {
+    background-color: #66bfbf;
+    font-size: 30px;
+    font-family: 'Tektur', cursive;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px;
+}
+
+.footer-link {
+    font-family: 'Tektur', cursive;
+    font-size: 18px;
+    color: white;
+    margin: auto 30px;
+    text-decoration: none;
+}
+
+.copyrights {
+    font-family: 'Tektur', cursive;
+    color: rgb(7, 0, 72);
+    padding: 20px 0px;
+}
+
+span {
+    color: red;
+}
+
+
+/* ----------------------- */
+
+
+header {
+  background-color: #66bfbf;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
